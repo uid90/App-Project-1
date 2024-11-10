@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario Interactivo</title>
+  <link rel="stylesheet" href="css/naranja.css"> 
+</head>
+<body>
+
+  <div class="form-container">
+    <div class="container">
+      <div class="input-container">
+        <label for="numero">Introduce las cajas de naranjas:</label>
+        <input type="number" id="numero" name="numero">
+      </div>
+
+      <div class="price-container">
+        <label for="precio">Precio por caja (€/caja):</label>
+        <input type="number" id="precio" name="precio" value="1.16" step="0.01" min="0.01">
+      </div>
+
+      <div class="options-container">
+        <label class="option">
+          <input type="checkbox" class="option-checkbox">
+          Eberth
+        </label>
+        <label class="option">
+          <input type="checkbox" class="option-checkbox">
+          Marco
+        </label>
+        <label class="option">
+          <input type="checkbox" class="option-checkbox">
+          Roberto
+        </label>
+        <label class="option">
+          <input type="checkbox" class="option-checkbox">
+          Antony
+        </label>
+        <label class="option">
+          <input type="checkbox" class="option-checkbox">
+          Jose
+        </label>
+      </div>
+
+      <div class="submit-container">
+        <button class="submit-btn">Calcular</button>
+      </div>
+
+      <div id="resultado"></div>
+    </div>
+  </div>
+
+  <script src="js/naranja.js"></script> 
+</body>
+</html>

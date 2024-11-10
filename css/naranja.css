@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fff7e6;
+  }
+  
+  .form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.1); 
+  }
+  
+  .container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;  
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    width: 100%;
+    max-width: 500px;  
+    box-sizing: border-box;
+  }
+  
+  .input-container, .price-container, .options-container, .submit-container {
+    margin-bottom: 20px;
+    text-align: center; 
+  }
+  
+  .input-container input, .price-container input {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    max-width: 250px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin: 0 auto; 
+    display: block;
+  }
+  
+  .options-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .option {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 250px; 
+  }
+  
+  .option input {
+    margin-right: 10px;
+  }
+  
+  .submit-container {
+    text-align: center;
+  }
+  
+  .submit-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #e68900;
+  }
+  
+  .price-container input, .input-container input {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+  }
+  
+  #resultado {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+  }
+  

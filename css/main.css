@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff7e6;
+    font-family: Arial, sans-serif;
+  }
+  
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .button {
+    padding: 15px 30px;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, opacity 0.3s ease;
+  }
+  
+  .button-naranja {
+    background-color: #FFA500;
+  }
+
+  .button-mandarina {
+    background-color: #FF7F32;
+  }
+
+  .button:hover {
+    opacity: 0.8;
+  }
+  
